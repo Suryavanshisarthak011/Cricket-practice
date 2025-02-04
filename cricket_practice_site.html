@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Practice & Tricks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffdfba, #f8f9fa, #bae1ff);
+            text-align: center;
+            animation: fadeIn 1.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+            background: linear-gradient(to right, #ff5733, #ff9800);
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        nav {
+            background: #004080;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: 0.3s;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        nav a:hover {
+            background: #ff9800;
+            transform: scale(1.1);
+        }
+        .container {
+            padding: 40px 20px;
+            animation: slideUp 1.2s ease-out;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h2 {
+            color: #ff5733;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Cricket Practice & Tricks
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#drills">Drills & Techniques</a>
+        <a href="#videos">Video Tutorials</a>
+        <a href="#forum">Community Forum</a>
+        <a href="#events">Events & Challenges</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Cricket Practice & Tricks</h2>
+        <p>Learn expert cricket drills, techniques, and tricks to improve your game!</p>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/600x400/?cricket" alt="Cricket Practice">
+        </div>
+    </div>
+    <div class="container" id="drills">
+        <h2>Drills & Techniques</h2>
+        <h3>Batting Drills</h3>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/600x400/?cricket-batting" alt="Batting Drill">
+        </div>
+        <ul>
+            <li><strong>Front Foot Drive Drill:</strong> Improves timing and balance for front-foot shots.</li>
+            <li><strong>Pull Shot Drill:</strong> Enhances reaction time and execution of pull shots.</li>
+            <li><strong>Defense Drill:</strong> Helps in developing a solid defensive technique against fast bowlers.</li>
+            <li><strong>Throw Down Drill:</strong> Refines shot selection and stroke play using throwdowns.</li>
+            <li><strong>One-Handed Batting Drill:</strong> Strengthens control and wrist movement for better shot accuracy.</li>
+        </ul>
+        <h3>Bowling Drills</h3>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/600x400/?cricket-bowling" alt="Bowling Drill">
+        </div>
+        <ul>
+            <li><strong>Target Bowling Drill:</strong> Enhances accuracy by aiming at specific spots on the pitch.</li>
+            <li><strong>Run-up Drill:</strong> Focuses on perfecting a smooth and consistent bowling run-up.</li>
+            <li><strong>Yorker Bowling Drill:</strong> Improves the ability to deliver yorkers consistently.</li>
+            <li><strong>Wrist Position Drill:</strong> Develops better wrist control for swing and seam bowling.</li>
+            <li><strong>Variation Drill:</strong> Helps bowlers practice different types of deliveries like slower balls and cutters.</li>
+        </ul>
+    </div>
+    <div class="container" id="videos">
+        <h2>Video Tutorials</h2>
+        <p>Watch these tutorials to improve your cricket skills:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4a9B1J8gKk8" title="Cricket Batting Techniques" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vXjRs3zQzF4" title="Cricket Bowling Tips" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5B5xX_hM8Qo" title="Fielding Drills for Beginners" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <footer>
+        &copy; 2025 Cricket Practice & Tricks | All Rights Reserved
+    </footer>
+</body>
+</html>
